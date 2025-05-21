@@ -1,0 +1,106 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #ce1179;
+    color: white;
+    padding: 13px;
+    text-align: center;
+}
+
+header a {
+    color: black;
+    text-decoration: palegoldenrod;
+    font-size: 20px;
+    float: right;
+    margin-right: 50px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+/* Product & Cart container */
+#product-container,
+#cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Product card styles */
+.product-card {
+    background-color: rgb(17, 7, 7);
+    border: 1px solid #38052b;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.product-card button {
+    background-color: #4CAF50;
+    color: rgb(24, 5, 5);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-card {
+    background-image: url('iphone.jpg');
+    background-size: contain; /* or 'contain' */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    color: rgb(14, 4, 4);
+}
+
+
+.product-card button:hover {
+    background-color: #45a049;
+}
+
+/* Total price styling */
+#total {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+#back-link {
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#back-link:hover {
+    color: #388E3C;
+    text-decoration: underline;
+}
+
